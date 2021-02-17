@@ -1,0 +1,416 @@
+nav {
+    position: absolute;
+    width: 468px;
+    height: 17px;
+    left: 891px;
+    top: 70px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black !important;
+    padding: 25px;
+    font-weight: normal;
+
+    font-family: "Roboto Condensed";
+}
+
+#logo {
+    position: absolute;
+    width: 96px;
+    height: 60px;
+    left: 402px;
+    top: 50px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+#landing {
+    position: absolute;
+    width: 357px;
+    height: 233.7px;
+    left: 487px;
+    top: 289px;
+}
+
+h1.landing {
+    position: absolute;
+    width: 541px;
+    height: 45px;
+    left: 974px;
+    top: 240px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    font-weight: bold;
+
+    color: #000000;
+}
+
+p.landing {
+    position: absolute;
+    width: 540px;
+    height: 124px;
+    text-align: justify;
+    left: 975px;
+    top: 319px;
+    padding-top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+#b1 {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 975px;
+    top: 490px;
+    background: #34547A;
+    animation-name: b1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+@keyframes b1 {
+    from {
+        background-color: #34547A;
+    }
+
+    to {
+        background-color: #64a1eb;
+    }
+}
+
+#b1:hover {
+    background-color: #F78167;
+}
+
+.greybanner1 {
+    background: #EEEFF1;
+    position: absolute;
+    width: 1920px;
+    height: 532px;
+    left: -1px;
+    top: 156px;
+}
+
+h2.me {
+    position: absolute;
+    width: 403px;
+    height: 30px;
+    left: 758px;
+    top: 812px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+p.me {
+    position: absolute;
+    width: 540px;
+    height: 67px;
+    left: 690px;
+    top: 892px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.morangebanner {
+    background: #F78167;
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 1059px;
+}
+
+h2#skills {
+    position: absolute;
+    width: 403px;
+    height: 30px;
+    left: 386px;
+    top: 1513px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+#foto {
+    position: absolute;
+    width: 449px;
+    height: 449px;
+    left: 1036px;
+    top: 1412px;
+}
+
+.porangebanner {
+    background: #F78167;
+    position: absolute;
+    width: 1920px;
+    height: 1004px;
+    left: 0px;
+    top: 1962px;
+}
+
+h2.check {
+    position: absolute;
+    width: 406px;
+    height: 30px;
+    left: 756px;
+    top: 3073px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #000000;
+}
+
+p.check {
+    position: absolute;
+    width: 540px;
+    height: 67px;
+    left: 690px;
+    top: 3140px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+
+h2.white {
+    position: absolute;
+    width: 403px;
+    height: 30px;
+    left: 758px;
+    top: 2062px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+#p1 {
+    position: absolute;
+    width: 928px;
+    height: 429px;
+    left: 174px;
+    top: 2296px;
+}
+
+#p2 {
+    position: absolute;
+    width: 555px;
+    height: 360px;
+    left: 1218px;
+    top: 2151px;
+}
+
+#p3 {
+    position: absolute;
+    width: 555px;
+    height: 370px;
+    left: 1218px;
+    top: 2549px;
+}
+
+.greybanner2 {
+    background: #EEEFF1;
+    position: absolute;
+    width: 1920px;
+    height: 696px;
+    left: 0px;
+    top: 2966px;
+}
+
+input:required {
+    border: 1px solid red;
+}
+
+#name {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 690px;
+    top: 3212px;
+
+    background: #FFFFFF;
+}
+
+#mail {
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 975px;
+    top: 3212px;
+
+    background: #FFFFFF;
+}
+
+
+#description {
+    position: absolute;
+    width: 540px;
+    height: 175px;
+    left: 690px;
+    top: 3282px;
+
+    background: #FFFFFF;
+}
+
+#b2 {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 864px;
+    top: 3507px;
+    background: #34547A;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+#b2:hover {
+    background-color: #F78167;
+}
+
+.horangebanner {
+    background: #F78167;
+    position: absolute;
+    width: 1920px;
+    height: 156px;
+    left: -1px;
+    top: 0px;
+}
+
+.forangebanner {
+    background: #F78167;
+    position: absolute;
+    width: 1920px;
+    height: 153px;
+    left: 0px;
+    top: 3662px;
+}
+
+.white {
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+h3.white {
+    position: absolute;
+    width: 214px;
+    height: 19.25px;
+    left: 406px;
+    top: 3712.66px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+
+p.white {
+    position: absolute;
+    width: 193px;
+    height: 12.16px;
+    left: 406px;
+    top: 3752.18px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.container {
+    position: absolute;
+    width: 175px;
+    height: 41.53px;
+    left: 1356px;
+    top: 3718.74px;
+    padding: 25px;
+}
+
+#vk {
+    position: absolute;
+    width: 43.75px;
+    height: 40.53px;
+    top: 21.47%;
+    bottom: 21.47%;
+}
+
+#fb {
+    position: absolute;
+    width: 43.75px;
+    height: 40.53px;
+    top: 21.47%;
+    bottom: 21.47%;
+}
+
+#inst {
+    position: absolute;
+    width: 43.75px;
+    height: 40.53px;
+    top: 21.47%;
+    bottom: 21.47%;
+}
