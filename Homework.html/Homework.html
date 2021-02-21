@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="/week5/Homework.html/styles/normalize.css">
+    <style>
+      header, footer {
+        background-color: #e0e0e0;
+        flex: 0 0 content;
+      }
+
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+      }
+
+      body {
+          display: flex;
+          flex-flow: column;
+          min-height: 100vh;
+      }
+
+      h1, p {
+        display: flex;
+        justify-content: center;
+      }
+
+      aside {
+        background-color: #ddeccb;
+        min-width: 60vh;
+        flex: 0 0 content;
+
+      }
+
+      .flexcontainerm {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content:center; 
+          flex: 0 0 content;
+          background-color: #fef8e3;
+        }
+
+      .flexcontainers {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around; 
+          align-items: center;
+          align-content: flex-end;  
+          flex: 0 0 content;
+
+      }
+
+      .flexp1 {
+      background-color: #fdeab9;
+      width: 60vh;
+      }
+
+      .flexp13 {
+      background-color: #fdeab9;
+      width: 130vh;
+      }  
+
+      .flexcontainerf {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          align-content: stretch;
+          justify-content: space-around; 
+      }
+
+      .flexp2 {
+        background-color: #fafafa;
+      }
+
+    </style>
+</head>
+<body>
+<header>
+    <p>Header</p>
+</header>
+    <main>
+    <div class="flexcontainerm">
+    <h1>Homework</h1>
+<div class="flexcontainers">
+    <p class="flexp1">Unit1</p>
+    <p class="flexp1">Unit2</p>
+    <p class="flexp13">Unit3</p>
+</div></div>
+<aside>
+    <p>Aside</p>
+</aside>
+    </main>
+<footer>
+    <div class="flexcontainerf">
+    <p class="flexp2">Footer1</p>
+    <p class="flexp2">Footer2</p>
+    <p class="flexp2">Footer3</p>
+    <p class="flexp2">Footer4</p>
+    </div>
+</footer>
+</body>
+</html>
