@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказать сайт</title>
+    <link rel="icon" href="Assets/images/icon.svg" type="png/svg">
+    <link rel="stylesheet" href="/week5/visitka/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <style>
+      header, footer {
+        background-color: #F78167;
+        flex: 0 0 content;
+      }
+
+      .flexcontainerh {
+        min-height: 156px;
+          display: flex;
+          flex-direction:row;
+          flex-wrap: wrap;
+          align-items: center;
+          align-content: center;
+          justify-content: space-around; 
+      } 
+
+       .flexcontainerh1 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center; 
+          align-items:flex-start;
+          align-content:center;  
+          flex: 0 0 content;
+       }
+
+       .flexcontainerh2 {
+        display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content:flex-end; 
+          align-items: center;
+          align-content: center;  
+          flex: 0 0 content; 
+        }
+
+        #logo {
+    position: absolute;
+    width: 96px;
+    height: 60px;
+}
+
+.menu {
+  text-decoration: none;
+    color: black !important;
+    padding: 25px;
+    font-weight: normal;
+
+    font-family: "Roboto Condensed";
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+      main {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+      }
+
+      body {
+          display: flex;
+          flex-flow: column;
+          margin: 0;
+          padding: 0;
+        }
+
+      h1, p {
+        display: flex;
+        justify-content: center;
+      }
+
+      .flexcontainerm {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content:center; 
+          flex: 0 0 content;
+          background-color: #EEEFF1;
+          min-height: 532px;
+        }
+
+        .flexcontainerl {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center; 
+          align-items: center;
+          align-content: center;  
+          flex: 0 0 content;
+          text-align: center
+      }
+
+      .flexcontainerl2 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: flex-start; 
+          align-items: flex-start;
+          align-content: space-around;  
+          flex: 0 0 content;
+      }
+
+      .l {
+        width: 30%;
+      }
+
+      .l1 {
+        width: 40%;
+      }
+
+    #landing {
+    width: 60%;
+}
+
+.white {
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+h3.white {
+  font-size: 21px;
+}
+p.white {
+    font-size: 13px;
+}
+
+      .flexcontainerf {
+        min-height: 153px;
+          display: flex;
+          flex-direction:row;
+          flex-wrap: wrap;
+          align-items: center;
+          align-content: center;
+          justify-content: space-around; 
+      } 
+
+       .flexcontainerf1 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center; 
+          align-items:flex-start;
+          align-content:center;  
+          flex: 0 0 content;
+       }
+
+       .flexcontainerf2 {
+        display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content:flex-end; 
+          align-items: center;
+          align-content: center;  
+          flex: 0 0 content; 
+        }
+
+        #vk, #fb, #inst {
+    width: 43.75px;
+    height: 40.53px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+  <div class="flexcontainerh">
+    <div class="flexcontainerh1"><img src="Assets/images/icon.svg" alt="logo" id="logo"></div>
+    <div class="flexcontainerh2"><nav>
+            <a class="menu" href="#">Главная</a>
+            <a class="menu" href="#">Обо мне</a>
+            <a class="menu" href="#">Портфолио</a>
+            <a class="menu" href="#">Контакты</a>
+    </nav></div></div>
+</header>
+    <main>
+    <div class="flexcontainerm">
+    <section class="l"><div class="flexcontainerl"><img src="assets/images/landing.png" alt="landing" id="landing"></div></section>
+    <section class="l1"><div class="flexcontainerl2">
+    <h1 class="landing">Лендинги</h1>
+    <p class="landing">Лендинг пейдж (landing page) или просто «лендинг» — это особый тип сайтов, оптимизированных для побуждения к действию интернет-пользователя. Традиционный лендинг описывает продукт, его преимущества и указывает на необходимость в приобретении этого продукта.</p>
+    <button id="b1">Заказать</button></section>
+</div></div>
+    </main>
+<footer>
+    <div class="flexcontainerf">
+      <div class="flexcontainerf1">
+        <h3 class="white">Галяутдинова Луиза</h3>
+        <p class="white">(с) 2021. Все права защищены.</p>
+      </div>
+        <div class="flexcontainerf2">
+          <a href="https://instagram.com/"><img src="assets/images/ins.png" alt="instagram" id="inst"></a>
+        <a href="https://vk.com/"><img src="assets/images/vk.svg" alt="vk" id="vk"></a>
+        <a href="https://fb.com/"><img src="assets/images/fb.png" alt="fb" id="fb"></a>
+        </div></div>
+</footer>
+</body>
+</html>

@@ -1,3 +1,11 @@
+.header,
+.footer,
+.morangebanner,
+.porangebanner {
+    background-color: #F78167;
+    flex: 0 0 content;
+}
+
 nav {
     position: absolute;
     width: 468px;
@@ -6,12 +14,25 @@ nav {
     top: 70px;
 }
 
+.flexcontainerh {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexcontainern {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
 .menu {
     text-decoration: none;
     color: black !important;
-    padding: 25px;
-    font-weight: normal;
-
     font-family: "Roboto Condensed";
 }
 
@@ -27,12 +48,10 @@ nav {
     text-decoration: underline;
 }
 
-#landing {
-    position: absolute;
-    width: 357px;
-    height: 233.7px;
-    left: 487px;
-    top: 289px;
+.flexcontainerl {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 h1.landing {
@@ -93,6 +112,16 @@ p.landing {
     color: #FFFFFF;
 }
 
+
+#landing {
+    position: absolute;
+    width: 357px;
+    height: 233.7px;
+    left: 487px;
+    top: 289px;
+}
+
+
 @keyframes b1 {
     from {
         background-color: #34547A;
@@ -101,10 +130,6 @@ p.landing {
     to {
         background-color: #64a1eb;
     }
-}
-
-#b1:hover {
-    background-color: #F78167;
 }
 
 .greybanner1 {
@@ -152,7 +177,6 @@ p.me {
 }
 
 .morangebanner {
-    background: #F78167;
     position: absolute;
     width: 1920px;
     height: 250px;
@@ -185,7 +209,6 @@ h2#skills {
 }
 
 .porangebanner {
-    background: #F78167;
     position: absolute;
     width: 1920px;
     height: 1004px;
@@ -333,7 +356,7 @@ input:required {
 }
 
 .horangebanner {
-    background: #F78167;
+    background-color: #F78167;
     position: absolute;
     width: 1920px;
     height: 156px;
