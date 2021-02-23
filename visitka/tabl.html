@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="/week5/Homework.html/styles/normalize.css">
+    <style>
+
+      .flexcontainer {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          border: 1px solid black;
+      }
+
+      .flexcontainer1 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          flex: 1;
+      }
+
+      .flexcontainer2 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          flex: 1;
+      }
+
+      .flexcontainer22 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          min-width: 33%;
+          }
+   
+
+      .flexp{
+        border: 1px solid black;
+        align-self: stretch;
+        padding: 25px;
+        margin: 2px;
+        min-width: 30%;
+
+      }
+
+      .flexp22 {
+        border: 1px solid black;
+        align-self: stretch;
+        padding: 25px;
+        margin: 2px;
+        flex: 1;
+      }
+
+      .flexp2 {
+       border: 1px solid black;
+       align-self: stretch;
+       padding: 25px;
+       margin: 2px; 
+      }
+
+      .flexcontainer4 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          flex: 1;
+      }
+      .flexp4 {
+        border: 1px solid black;
+        align-self: stretch;
+        padding: 25px;
+        margin: 2px;
+        min-width: 96%;
+          }
+
+    </style>
+</head>
+<body>
+    <div class="flexcontainer">
+    <div class="flexcontainer1">
+        <p class="flexp">Columu 1</p>
+        <p class="flexp">Columu 2</p>
+        <p class="flexp">Columu 3</p>
+    </div>
+    <div class="flexcontainer2">
+        <div class="flexcontainer22">
+        <p class="flexp22">Row 3 Cell 1</p>
+        </div>
+        <div class="flexcontainer22">
+            <p class="flexp2">Row 1 Cell 2</p>
+            <p class="flexp2">Row 2 Cell 2</p>
+        </div>
+        <div class="flexcontainer22">
+            <p class="flexp2">Row 1 Cell 3</p>
+            <p class="flexp2">Row 2 Cell 3</p>
+    </div>
+    </div>
+    
+    <div class="flexcontainer4">
+        <p class="flexp4">Row 3 Cell 1</p></div>
+    </div>
+</body>
+</html>
